@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="center">
+        <h1>Calculadora</h1>
+    </div>
+
+    <form id="calculadora">
+        <div class="center">
+            <input type="number" id="campo1">
+
+            <div class="opcoes">
+                <label><input type="radio" name="calculo" value="soma"> + </label>
+                <label><input type="radio" name="calculo" value="subtracao"> - </label>
+                <label><input type="radio" name="calculo" value="multiplicacao"> x </label>
+                <label><input type="radio" name="calculo" value="divisao"> / </label>
+            </div>
+
+            <input type="number" id="campo2">
+        </div>
+    </form>
+
+    <br><br>
+
+    <div class="center">
+        <button id="botao">Calcular</button>
+    </div>
+
+    <br><br>
+
+    <div class="center">
+        <h2 id="resultado"></h2>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
